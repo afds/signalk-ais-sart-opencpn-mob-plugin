@@ -14,7 +14,7 @@ interface SendResult {
 module.exports = (app: ServerAPI): Plugin => {
   let settings: Settings = {
     sart_mmsi: 970000001,
-    auto_increment_sart_mmsi: false,
+    auto_increment_sart_mmsi: true,
   };
   let currentMMSI: number;
 

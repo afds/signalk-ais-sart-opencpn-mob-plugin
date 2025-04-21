@@ -32,7 +32,7 @@ module.exports = (app: ServerAPI): Plugin => {
       router.post("/trigger", (req, res) => {
         let outputMMSI: string;
         if (req.body.mmsi) {
-          outputMMSI = req.body.mmsi;
+          outputMMSI = "" + req.body.mmsi;
         } else {
           outputMMSI = currentMMSI.toString();
         }

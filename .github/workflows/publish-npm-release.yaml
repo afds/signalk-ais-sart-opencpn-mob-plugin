@@ -16,7 +16,7 @@ jobs:
           node-version: "18.x"
           registry-url: "https://registry.npmjs.org"
       - name: Bump version
-        run: npm version from-git
+        run: npm --no-git-tag-version version from-git
       - run: npm ci
       - run: npm publish --provenance --access public
         env:

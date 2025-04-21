@@ -1,6 +1,6 @@
 {
   "name": "signalk-ais-sart-opencpn-mob-plugin",
-  "version": "1.0.4",
+  "version": "1.0.0",
   "description": "A SignalK plugin that simulates an AIS SART (Search and Rescue Transponder) MOB (Man Overboard) event via a REST endpoint trigger. Designed for integration with OpenCPN’s MOB alert system — ideal for triggering MOB scenarios from other apps or systems.",
   "keywords": [
     "signalk-node-server-plugin",
